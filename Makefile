@@ -3,7 +3,7 @@
 all: start
 
 dfwfw/.git:
-	git clone git@github.com:norton/dfwfw.git
+	git clone https://github.com/norton/dfwfw.git
 
 build: dfwfw/.git
 	docker-compose build
