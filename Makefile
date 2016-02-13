@@ -10,7 +10,7 @@ build: dfwfw/.git
 
 start: build
 	docker-machine scp dfwfw.conf $(DOCKER_MACHINE_NAME):/home/docker/dfwfw.conf
-	docker-compose up
+	docker-compose up -d
 
 stop:
 	docker-compose stop
