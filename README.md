@@ -10,7 +10,7 @@ $ docker ssh dev
 
 Edit and save the profile file to add the "--iptables=false" line:
 
-$ sudo vi /var/lib/boo2docker/profile
+$ sudo vi /var/lib/boot2docker/profile
 $ cat /var/lib/boot2docker/profile
 
 EXTRA_ARGS='
