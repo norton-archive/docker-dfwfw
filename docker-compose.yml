@@ -12,3 +12,4 @@ services:
     cap_add:
       - NET_ADMIN
       - SYS_ADMIN
+    restart: always
