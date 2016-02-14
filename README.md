@@ -6,7 +6,7 @@ See [Makefile](./Makefile) for details.
 ```
 $ make
 
-$ docker ssh dev
+$ docker-machine ssh dev
 
 Edit and save the profile file to add the "--iptables=false" line:
 
